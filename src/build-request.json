@@ -1,0 +1,40 @@
+{
+  "kind": "build_request",
+  "title": "Correct Hindi spelling: वैशेलिया to वैचेलिया",
+  "projectName": "Vachellia Psychocare",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "text": "Update all instances of 'वैशेलिया साइकोकेयर' to 'वैचेलिया साइकोकेयर' throughout the frontend application, including the Header component logo text, HomePage hero section heading, and translations utility file",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "change वैशेलिया साइकोकेयर to वैचेलिया साइकोकेयर"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Header component displays 'वैचेलिया साइकोकेयर' in the logo text",
+        "HomePage hero section shows 'वैचेलिया साइकोकेयर' in the main heading",
+        "All translations in utils/translations.ts use 'वैचेलिया साइकोकेयर' instead of 'वैशेलिया साइकोकेयर'",
+        "No instances of the old spelling 'वैशेलिया' remain in the codebase"
+      ]
+    }
+  ],
+  "constraints": [
+    "Only change the Hindi spelling; do not modify the English text 'Vachellia Psychocare'",
+    "Maintain the same styling and layout as the current implementation"
+  ],
+  "nonGoals": [
+    "Changing the English branding text",
+    "Modifying the logo design or layout",
+    "Updating any other translations beyond this specific spelling correction"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

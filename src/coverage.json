@@ -1,0 +1,39 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-22T13:16:14.520Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-10",
+        "summary": "Update all instances of 'वैशेलिया साइकोकेयर' to 'वैचेलिया साइकोकेयर' throughout the frontend application, including the Header component logo text, HomePage hero section heading, and translations utility file",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Header.tsx",
+          "frontend/src/pages/HomePage.tsx",
+          "frontend/src/utils/translations.ts"
+        ],
+        "matchedFiles": [
+          "frontend/src/utils/translations.ts"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/utils/translations.ts",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

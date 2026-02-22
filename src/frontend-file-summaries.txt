@@ -1,0 +1,5 @@
+{
+  "frontend/src/utils/translations.ts": "Contains all bilingual translations for the application including navigation items, hero section text, and branding with corrected Hindi spelling \"वैचेलिया साइकोकेयर\" for \"Vachellia Psychocare\".",
+  "frontend/src/components/Header.tsx": "Header component with logo, navigation menu, language toggle, and mobile menu that displays \"Vachellia Psychocare\" as the brand name using bilingual text.",
+  "frontend/src/pages/HomePage.tsx": "Home page component featuring a hero section with \"Vachellia Psychocare\" heading, section cards for different topics, and quick stats display with bilingual support throughout."
+}

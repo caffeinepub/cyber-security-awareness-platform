@@ -1,0 +1,34 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Correct Hindi spelling: वैशेलिया to वैचेलिया",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "summary": "Update all instances of 'वैशेलिया साइकोकेयर' to 'वैचेलिया साइकोकेयर' throughout the frontend",
+      "acceptanceCriteria": [
+        "Header component displays 'वैचेलिया साइकोकेयर' in the logo text",
+        "HomePage hero section shows 'वैचेलिया साइकोकेयर' in the main heading",
+        "All translations in utils/translations.ts use 'वैचेलिया साइकोकेयर' instead of 'वैशेलिया साइकोकेयर'",
+        "No instances of the old spelling 'वैशेलिया' remain in the codebase"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Header.tsx",
+          "operation": "modify",
+          "description": "Update the logo text from 'वैशेलिया साइकोकेयर' to 'वैचेलिया साइकोकेयर' in the Header component while preserving the English text 'Vachellia Psychocare' and all existing styling"
+        },
+        {
+          "path": "frontend/src/pages/HomePage.tsx",
+          "operation": "modify",
+          "description": "Update the hero section heading from 'वैशेलिया साइकोकेयर' to 'वैचेलिया साइकोकेयर' while maintaining the same layout and styling"
+        },
+        {
+          "path": "frontend/src/utils/translations.ts",
+          "operation": "modify",
+          "description": "Replace all instances of 'वैशेलिया साइकोकेयर' with 'वैचेलिया साइकोकेयर' in the translations object, ensuring consistency across all Hindi text pairs"
+        }
+      ]
+    }
+  ]
+}

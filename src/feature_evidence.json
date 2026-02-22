@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-all-instances-of-to-throughout-the-frontend-application-including-the-header-component-logo-text-homepage-hero-section-heading-and-translations-utility-file",
+      "featureTitle": "Update all instances of 'वैशेलिया साइकोकेयर' to 'वैचेलिया साइकोकेयर' throughout the frontend application, including the Header component logo text, HomePage hero section heading, and translations utility file",
+      "files": [
+        "frontend/src/utils/translations.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

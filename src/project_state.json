@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Bilingual (Hindi & English) cyber security awareness platform for Indian colleges covering online safety, digital wellbeing, psychological impacts of phone use, government initiatives, security measures, and online complaint mechanisms - tailored for students and staff",
+  "architectural_notes": [
+    "Web-based platform targeting three audiences: college students, teaching staff, and non-teaching staff",
+    "All content must be bilingual (Hindi and English displayed together)",
+    "Indian context only - focus on local laws, initiatives, and resources"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-bilingual-hindi-and-english-homepage-with-navigation-to-all-major-sections-online-safety-digital-wellbeing-government-initiatives-security-measures-and-complaint-mechanisms-display-content-in-both-languages-side-by-side-or-with-a-language-toggle",
+      "title": "Create a bilingual (Hindi and English) homepage with navigation to all major sections: Online Safety, Digital Wellbeing, Government Initiatives, Security Measures, and Complaint Mechanisms. Display content in both languages side-by-side or with a language toggle.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-online-safety-section-covering-cyber-security-fundamentals-including-password-security-phishing-awareness-social-media-privacy-secure-browsing-practices-and-safe-online-shopping-all-contextualized-for-indian-college-students-and-staff-teaching-and-non-teaching",
+      "title": "Create an Online Safety section covering cyber security fundamentals including password security, phishing awareness, social media privacy, secure browsing practices, and safe online shopping - all contextualized for Indian college students and staff (teaching and non-teaching).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-digital-wellbeing-section-covering-psychological-effects-and-impacts-of-digital-phone-and-online-use-including-screen-time-management-social-media-addiction-mental-health-impacts-sleep-disruption-and-strategies-for-healthy-digital-habits-with-statistics-and-research-relevant-to-india",
+      "title": "Create a Digital Wellbeing section covering psychological effects and impacts of digital phone and online use, including screen time management, social media addiction, mental health impacts, sleep disruption, and strategies for healthy digital habits - with statistics and research relevant to India.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-government-initiatives-section-documenting-all-major-indian-government-efforts-for-online-safety-including-cyber-surakshit-bharat-information-security-education-and-awareness-isea-national-cyber-security-policy-digital-india-initiatives-and-state-level-programs-include-official-resources-and-links-to-government-portals",
+      "title": "Create a Government Initiatives section documenting all major Indian government efforts for online safety including Cyber Surakshit Bharat, Information Security Education and Awareness (ISEA), National Cyber Security Policy, Digital India initiatives, and state-level programs. Include official resources and links to government portals.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-security-measures-section-with-practical-recommendations-including-antivirus-software-vpn-usage-two-factor-authentication-device-security-wifi-safety-mobile-security-apps-and-backup-strategies-with-focus-on-free-affordable-options-accessible-to-indian-students",
+      "title": "Create a Security Measures section with practical recommendations including antivirus software, VPN usage, two-factor authentication, device security, WiFi safety, mobile security apps, and backup strategies - with focus on free/affordable options accessible to Indian students.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-online-complaint-mechanisms-section-listing-all-indian-cyber-crime-reporting-options-including-national-cyber-crime-reporting-portal-cybercrime-gov-in-state-cyber-cells-women-helpline-1091-cyber-crime-helpline-1930-and-email-contact-details-for-reporting-include-step-by-step-guides-for-filing-complaints",
+      "title": "Create an Online Complaint Mechanisms section listing all Indian cyber crime reporting options including National Cyber Crime Reporting Portal (cybercrime.gov.in), state cyber cells, women helpline (1091), cyber crime helpline (1930), and email/contact details for reporting. Include step-by-step guides for filing complaints.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-resources-section-with-downloadable-guides-infographics-video-tutorials-and-external-links-to-authoritative-cyber-security-resources-from-indian-government-bodies-cert-in-meity-educational-institutions-and-international-organizations",
+      "title": "Create a Resources section with downloadable guides, infographics, video tutorials, and external links to authoritative cyber security resources from Indian government bodies (CERT-In, MeitY), educational institutions, and international organizations.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-modern-accessible-and-culturally-appropriate-design-system-with-a-cohesive-visual-identity-that-reflects-trust-safety-and-education-use-a-warm-approachable-color-palette-avoid-stereotypical-blue-purple-clear-typography-that-supports-both-devanagari-and-latin-scripts-and-intuitive-navigation-patterns-suitable-for-users-with-varying-digital-literacy-levels",
+      "title": "Implement a modern, accessible, and culturally appropriate design system with a cohesive visual identity that reflects trust, safety, and education. Use a warm, approachable color palette (avoid stereotypical blue/purple), clear typography that supports both Devanagari and Latin scripts, and intuitive navigation patterns suitable for users with varying digital literacy levels.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-main-heading-in-the-homepage-hero-section-with-vachellia-psychocare-in-both-english-and-hindi-update-the-header-logo-text-to-display-vachellia-psychocare-instead-of-the-current-cyber-security-platform-branding",
+      "title": "Replace the main heading in the homepage hero section with 'Vachellia Psychocare' in both English and Hindi (वैशेलिया साइकोकेयर). Update the header logo text to display 'Vachellia Psychocare' instead of the current cyber security platform branding.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-instances-of-to-throughout-the-frontend-application-including-the-header-component-logo-text-homepage-hero-section-heading-and-translations-utility-file",
+      "title": "Update all instances of 'वैशेलिया साइकोकेयर' to 'वैचेलिया साइकोकेयर' throughout the frontend application, including the Header component logo text, HomePage hero section heading, and translations utility file",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create bilingual (Hindi/English) web platform structure",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add cyber security awareness content for college audience",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Include online safety guidelines and best practices",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add section on psychological effects of digital/phone use",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Document Indian government initiatives for online safety",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Include security measures and recommendations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Add online complaint mechanisms and reporting options",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add 'Vachellia Psychocare' as main heading",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Cyber Security Awareness Platform",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
